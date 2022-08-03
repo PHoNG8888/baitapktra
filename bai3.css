@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.container{
+    width: 1213px;
+    height: 854px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.container h1{
+    margin-left: 100px;
+}
+header{
+    display: flex;
+    justify-content:space-between;
+    padding-left: 100px;
+}
+.head-form__btn{
+    margin:auto;
+    width: 534px;
+    height: 56px;
+    text-decoration: none;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    padding: 0 ;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.head-form__btn.btn-Reputation:hover{
+    background-color: #849FFF;
+}
+.head-form__btn.btn-New-user:hover{
+    background-color: #849FFF;
+}
+.head-form__btn.btn-Voter:hover{
+    background-color: #849FFF;
+}
+.head-form__btn.btn-Editor:hover{
+    background-color: #849FFF;
+}
+.head-form__btn.btn-Moderator:hover{
+    background-color: #849FFF;
+}
+.head-form__search{
+    width: 471px;
+    height: 40px;
+    position: relative;
+    color: #828282;
+}
+.head-form__search input{
+    width: 304px;
+    height: 34px;
+    padding-left: 46px;
+    border: 2px solid#828282;
+    border-radius: 8px;
+}
+.head-form__search i {
+    position: absolute;
+    left: 16px;
+    top: 9px;
+}
+
+.head-form__search input::placeholder {
+    color: #828282;
+}
+.main-form__user-infor-top{
+    display: flex;   
+    margin: 32px 100px;
+}   
+.main-form__user-infor-bot{
+    display: flex;
+    margin: 32px 100px;
+}
+.btn-infor{
+    display: flex;
+    width: 45px;
+    height: 18px;
+    gap:10px;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.user{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 16px;
+    width: 327px;
+    height: 208px;
+    background: #FBFCFF;
+    border-radius: 16px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.interests{
+    width: 45px;
+    height: 18px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;  
+    color: #516FD5;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    
+}
